@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+
+.app-container {
+  padding: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-container,
+.list-container {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  margin-top: 12px;
+}
+
+button.delete {
+  background: #d9534f;
+}
+
+.preview {
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.thumb {
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.info {
+  flex: 1;
+}
+
+.actions button {
+  margin-bottom: 5px;
+  width: 80px;
+}
